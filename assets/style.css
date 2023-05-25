@@ -26,6 +26,7 @@ header img {
     background: #213ebf;
 }
 .game {
+    text-decoration: none;
     color: black;
     background: #aaa;
     display: flex;
@@ -33,8 +34,14 @@ header img {
     border-radius: 1rem;
     align-items: center;
     padding: 1rem;
+    position: relative;
 }
-
+.game .requirements {
+    position: absolute;
+    top: 1.1rem;
+    left: 1.1rem;
+    color: white;
+}
 .game:hover {
     background: teal;
 }
