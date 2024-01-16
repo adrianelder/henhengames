@@ -35,6 +35,7 @@ header img {
     align-items: center;
     padding: 1rem;
     position: relative;
+    margin-bottem: 1rem;
 }
 .game .requirements {
     position: absolute;
